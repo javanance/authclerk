@@ -2,9 +2,9 @@
   position: relative;
   background-image: repeating-linear-gradient(
     to right,
-    #63DFFA,
-    #6C47FF,
-    #63DFFA
+    #63dffa,
+    #6c47ff,
+    #63dffa
   );
   z-index: 1;
   background-position-x: 0%;
@@ -25,6 +25,9 @@
   }
 }
 
+.cl-internal-12qvck8 {
+  display: none;
+}
 /* .cta .arrow {
   opacity: 0;
   transition: 0.1s linear;

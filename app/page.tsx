@@ -3,6 +3,7 @@ import Link from "next/link";
 import componentsImg from "./assets/components.svg";
 import { DownArrow, RightArrow } from "./icons";
 import "./home.css";
+import { SignInButton } from "@clerk/nextjs";
 
 export default function Home() {
   return (
@@ -105,6 +106,10 @@ export default function Home() {
           </div>
         </div>
       </article>
+      <div>
+        <h1> Sign in </h1>
+        <SignInButton />
+      </div>
     </main>
   );
 }
